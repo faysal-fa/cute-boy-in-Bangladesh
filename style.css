@@ -1,0 +1,451 @@
+/* *{font-family: 'Aladin', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Tourney', cursive;} */
+*{
+    margin: 0;
+    border: none;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: #ffebee;
+    overflow-x: hidden;
+}
+.conta{
+    height: 100vh;
+    width: 100vw;
+   display: flex;
+
+}
+.fbibt{
+    position: fixed;
+    bottom: 3px;
+    display:block;
+    left: 0px;
+    width: 100px;
+    height: 180px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: rgb(62, 185, 83);
+    z-index: 100000;
+}
+.fbibt button{
+    margin-top: 20px;
+    margin-left: 20px;
+    background: transparent;
+}
+.fbibt button img{
+    width: 50px;
+    margin-bottom: 20px;
+}
+.nev{
+    background: #e6846c;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nev h1{
+    font-family: 'Lobster', cursive;
+    margin-left: 7%;
+    padding: auto;
+    font-size: 40px;
+}
+.nevb{
+    /* background: rgb(255, 0, 0); */
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.nevb button{
+    font-size: 40px;
+    margin-right: 50px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nevb button img{
+    width: 50px;
+}
+.ins{
+    width: 90px;
+}
+.main{
+    width: 50%;
+    margin-left: 10%;
+}
+.main img{
+    width: 70%;
+    display: grid;
+    justify-content: space-between;
+    margin: 30px auto;
+    box-shadow: 10px 10px 30px gray,
+                0px 10px 30px gray
+    ;
+}
+.ha1{
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+p{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    text-align: start;
+    font-family: 'Roboto', sans-serif;
+}
+.p1{
+    margin-top: 50px;
+}
+h2{
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    margin: 30px auto;
+    text-align: center;
+}
+h3{
+    text-align: start;
+}
+
+.caption{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+.rank{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+ol{
+    margin-left: 3%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 550;
+    margin-top: 20px;
+    
+}
+li{
+    margin-top: 5px;
+}
+.ha2{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+
+.fl{
+    width: 100%;
+    position: absolute;
+    background: #80ca5e;
+    height: 7vh;
+    position: absolute;
+    margin-top: 30px;
+    left: 0px;
+    font-size: 8px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    
+}
+span{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+
+.media .facebook{
+    width: 90%;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 40px;
+    background: rgb(31, 32, 34);
+    border: 2px solid rgb(31, 32, 34);
+    height: fit-content;
+    height: 950px;
+    z-index: 1000000;
+    border-radius: 10px;
+    
+}
+.facebook .pic1{
+    width: 100%;
+    position: relative;
+    top: -140px;
+    
+}
+
+.media{
+    /* background: rgb(0, 0, 0); */
+    width: 30%;
+    height: 400%;
+    margin: auto;
+}
+
+.facebook .pic2{
+    width: 50%;
+    border-radius: 50%;
+    border: 8px solid rgb(31, 32, 34);
+    position: relative;
+    top: -590px;
+    left: 25%;
+    z-index: 2;
+
+}
+.fbname{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    bottom: 580px;
+    font-size: 30px;
+    text-align: center;
+    z-index: 2;
+}
+.facebook p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
+
+    
+    
+
+}
+.bio{
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    bottom: 570px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.cover{
+    background:rgb(31, 32, 34);
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: -250px;
+    z-index: 1;
+}
+.facebook button{
+    font-size: 17px;
+    color: white;
+    background:  rgb(34, 36, 39);
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.facebook button:hover{
+    background:  rgb(41, 43, 46);
+}
+.but{
+    display: inline;
+    position: relative;
+    bottom: 540px;
+}
+.mes{
+    width: 70%;
+    margin-left: 10px;
+}
+
+.call{
+    width:10%;
+    margin-left: 10px;
+}
+.dot{
+    width: 10%;
+    margin-left: 10px;
+}
+.hr{
+    width: 100%;
+    height: 1px;
+    background: rgb(52, 53, 54);
+    position: relative;
+    bottom: 510px;
+}
+.im{
+    position: relative;
+    bottom: 490px;
+    left: 10px;
+}
+.im p{
+    font-size: 16px;
+    font-stretch: ultra-condensed;
+    font-variant: normal;
+    margin-top: 15px;
+    word-spacing: 5px;
+    cursor: pointer;
+}
+.im p span{
+    letter-spacing: 2px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;  
+}
+#more{
+    width: 90%;
+    background: rgb(60, 127, 228);
+    font-size: 21px;
+    margin-left: 40px;
+    font-size: 17px;
+    color: white;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+#more:hover{
+    background: rgb(22, 93, 201);
+}
+
+
+.insta{
+    width: 90%;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-left: 40px;
+    background: #ffffff;
+    border: 2px solid rgb(202, 202, 202);
+    height: fit-content;
+    /* height: 950px; */
+    z-index: 1000000;
+    border-radius: 10px;
+    color: rgb(71, 71, 71);
+}
+#top{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background: #FAFAFA;
+  height: 8%;
+}
+#pic1{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 16px 10px;
+}
+.insta #top #aa p{
+    font-family: 'Roboto', sans-serif;
+    margin: 25px 10px;
+    font-weight: 900;
+}
+#aa{
+    display: flex;
+}
+.insta #top  button{
+    background-color: #FAFAFA;
+    width: 10%;
+}
+#pic2{
+    width: 100%;
+}
+
+#but{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 35px;
+}
+#but button{
+    font-size: 30px;
+    background: transparent;
+    margin-right: 30px;
+    font-weight: 10;
+    color: rgb(71, 71, 71);
+}
+#qq{
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    /* background: #000; */
+    width: 25%;
+    color: rgb(71, 71, 71);
+}
+.like{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+    margin-top: 8px;
+    color: rgb(71, 71, 71);
+}
+.status{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(71, 71, 71);
+}
+.pp{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.love{
+    color: red;
+}
+.com1{
+    font-size: 14px;
+    margin-left: 10px;
+    font-weight: 550;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(104, 107, 109);
+}
+.com2{
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: -3px;
+}
+
+.mail{
+    width: 90%;
+    height: 8%;
+    margin-top: 50px;
+    margin-left: 40px;
+    background: rgb(255, 241, 227);
+    border-radius: 10px;
+    border: 1px solid rgb(238, 238, 238);
+}
+form{
+    text-align: center;
+}
+.mail form h3{
+    text-align: center;
+    font-size: 25px;
+    margin: 20px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mail form label{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    line-height: 50px;
+
+}
+.in{
+    width: 70%;
+    height: 40px;
+    font-size: 15px;
+    font-family: monospace;
+
+}
+.sendb{
+    background: rgb(207, 255, 202);
+    width: 50%;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-top: 16px;
+}
+.sendb:hover{
+    background: rgb(151, 253, 157);
+}
